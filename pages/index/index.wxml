@@ -1,6 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="feedit">
-
+  <view wx:for='{{list}}' wx:key='{{index}}' class="item">
+    <text class="index">{{item.index}}</text>
+    <text class="title" data-url="{{item.url}}" bindtap="gotourl">{{item.title}}</text>
+    <text class="time">{{item.create_time}}</text>
   </view>
 </view>

@@ -1,1 +1,28 @@
-/**index.wxss**/
+.container {
+  padding-top: 20rpx;
+}
+
+.item {
+  display: flex;
+  margin: 10rpx 0;
+  font-size: 28rpx;
+}
+
+.index {
+  padding-left: 10rpx;
+  color: #666;
+}
+
+.title {
+  width: 85%;
+  margin-left: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.time {
+  color: #666;
+  text-align: right;
+  padding-right: 10rpx;
+}
